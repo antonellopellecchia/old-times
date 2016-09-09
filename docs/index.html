@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Write an awesome description for your new site here. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+">
+
+	<link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One" rel="stylesheet"> 
+	<link href='http://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
+	<link href="https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/icons.css" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="/css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="/css/style.css" />
+	<link rel="stylesheet" media="(max-width: 800px)" href="/css/small.css" />
+	<link rel="icon" href="/images/favicon.png" type="image/png" />
+
+	<link rel="canonical" href="http://example.com/docs/">
+	<link rel="alternate" type="application/rss+xml" title="the name of this blog" href="http://example.com/feed.xml">
+
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/styles/tomorrow.min.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+	<script src="/js/functions.js"></script>
+
+	<title>Documentation / the name of this blog</title>
+</head>
+
+	<body>
+		<div id="mediaquery_check"></div>
+		<div id="site_header">
+	<div id="site_title"><a href="/">the name of this blog</a></div>
+	<ul id="navigation">
+		<li><a href="/">Articles</a></li>
+		
+			
+		
+			
+				<li><a href="/about/">About</a></li>
+			
+		
+			
+				<li><a href="/docs/">Documentation</a></li>
+			
+		
+			
+		
+			
+		
+			
+		
+	</ul>
+</div>
+
+		<div id="main"><div class="article single">
+	<h1 class="article_title" style="margin-bottom:2.5em"><a>Documentation</a></h1>
+	<div class="article_text">
+		<p>This is the documentation for <em>Old Times</em>, a Jekyll template featuring a pseudo-newspaper style.</p>
+
+<h2 id="installation">Installation</h2>
+
+<p>Assuming you don’t have Jekyll installed on your computer yet, extract the package <code class="highlighter-rouge">old-times.zip</code> in the folder <code class="highlighter-rouge">old-times</code>, then open a terminal and write:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">~</span> <span class="err">$</span> <span class="n">gem</span> <span class="n">install</span> <span class="n">jekyll</span> <span class="n">bundler</span>
+<span class="o">~</span> <span class="err">$</span> <span class="n">cd</span> <span class="n">old</span><span class="o">-</span><span class="n">times</span>
+<span class="o">~/</span><span class="n">old</span><span class="o">-</span><span class="n">times</span> <span class="err">$</span> <span class="n">bundle</span> <span class="n">install</span></code></pre></figure>
+
+<p>When you are in the <code class="highlighter-rouge">old-times</code> folder, the commands <code class="highlighter-rouge">jekyll server</code> or <code class="highlighter-rouge">bundle exec jekyll serve</code> will start your website’s server; you can open a browser and test your site on <code class="highlighter-rouge">http://localhost:4000</code>. To stop the server, press <code class="highlighter-rouge">CTRL+C</code> in the terminal window.</p>
+
+<p>For more detailed instructions about Jekyll installation, please refer to <a href="https://jekyllrb.com/docs/installation/">Jekyll’s installation documentation</a>.</p>
+
+<h2 id="configuration">Configuration</h2>
+
+<p>All configuration options can be found in <code class="highlighter-rouge">old-times/_config.yml</code> in YAML format; every time you change this file you will have to restart Jekyll with <code class="highlighter-rouge">jekyll serve</code>.</p>
+
+<p>The <em>System settings</em> section only contains the <code class="highlighter-rouge">host</code> option: set it to <code class="highlighter-rouge">0.0.0.0</code> to let other users in your local network access your site or delete it to deny access.</p>
+
+<p>The <em>Site settings</em> section contains these lines:</p>
+
+<ol>
+  <li>the <code class="highlighter-rouge">title</code> will be shown at the top of the page and as the page title in your browser;</li>
+  <li>the <code class="highlighter-rouge">description</code> is shown as meta tag in the HTML head;</li>
+  <li>set a <code class="highlighter-rouge">baseurl</code> if your site will be placed in a subfolder in your server root;</li>
+  <li><code class="highlighter-rouge">url</code> is your website’s address;</li>
+  <li>if you want to use <a href="http://disqus.com">Disqus</a> to display comments, set <code class="highlighter-rouge">disqus_enabled</code> to <code class="highlighter-rouge">True</code> - the option is disabled by default; note that you should create a Disqus account manually;</li>
+  <li>if <code class="highlighter-rouge">disqus_enabled</code> is set to <code class="highlighter-rouge">True</code>, <code class="highlighter-rouge">disqus_username</code> sets the username you choose for your Disqus account;</li>
+  <li><code class="highlighter-rouge">social_buttons</code> decides whether to display or not the share buttons (Twitter, Facebook and Google +) for each article;</li>
+  <li><code class="highlighter-rouge">excerpt_separator</code> sets the command used in a post to set the end of an excerpt; it should always have the form of an HTML comment (e.g. <code class="highlighter-rouge">&lt;!--some text here--&gt;</code>). The default string is <code class="highlighter-rouge">&lt;!--break--&gt;</code>;</li>
+  <li><code class="highlighter-rouge">paginate</code> sets the number of articles in the home page; for best visual results in all browsers and screens you should choose a number between 3 and 7.</li>
+</ol>
+
+<p>The <em>Build settings</em> section contains the Jekyll add-ons used to make <em>Old times</em> work; you probably won’t need to change anything in there.</p>
+
+<h2 id="usage">Usage</h2>
+
+<p>Each post must be a Markdown file in the <code class="highlighter-rouge">_posts</code> directory; its name will have to be in the form <code class="highlighter-rouge">date-alias.markdown</code>, where <code class="highlighter-rouge">date</code> is the YYYY-MM-DD date of publication, as prescribed in Jekyll’s <a href="https://jekyllrb.com/docs/posts/">post writing documentation</a>; please refer to the same page for a more detailed guide.</p>
+
+<p>In the markdown file, the text of the article must be preceded by a <a href="https://jekyllrb.com/docs/frontmatter/">YAML front matter</a>, containing one or more of these tags:</p>
+
+<figure class="highlight"><pre><code class="language-sh" data-lang="sh">---
+layout: post
+title:  <span class="s2">"The title of your article"</span>
+date:   YYYY-MM-DD HH:MM:SS +/-TTTT
+excerpt: &gt;
+	<span class="s2">"The excerpt of your article, usually a summary,
+	an introduction or the first lines"</span>
+---</code></pre></figure>
+
+<p>The excerpt will be shown in the main page; however, the latest article will always be shown entirely (except on mobile devices, which will show a different layout). The excerpt can be alternatively limited by placing a <code class="highlighter-rouge">&lt;!--break--&gt;</code> tag in the text of the article (the actual tag can be modified in the configuration file).</p>
+
+<p>Similarly, static pages (such as this one or the <em>About</em> page) must be Markdown files put in the website root directory; the text of the file must begin with a YAML front matter similar to this:</p>
+
+<figure class="highlight"><pre><code class="language-php" data-lang="php">---
+layout: page
+title: "Title of the page"
+permalink: /alias-of-the-page/
+---</code></pre></figure>
+
+<p>followed by the text of the page; the pages will be shown in the main menu, in the site header.</p>
+
+	</div>
+</div>
+<script src="/js/post.js"></script></div>
+		<div id="footer">
+	powered by <a href="http://jekyllrb.com" target="_blank">Jekyll</a> - design by <a href="http://caverndman.github.io" target="_blank">The cavern'd man</a>
+</div>
+	</body>
+
+</html>
