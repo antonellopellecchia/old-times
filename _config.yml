@@ -1,0 +1,21 @@
+# System settings
+host: 0.0.0.0
+
+# Site settings
+title: the cavern'd man
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. It will
+  appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "/old-times" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+disqus_enabled: False
+disqus_username: myusername
+social_buttons: True
+excerpt_separator: <!--break-->
+paginate: 5
+
+# Build settings
+markdown: kramdown
+gems:
+  - jekyll-paginate

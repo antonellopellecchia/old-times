@@ -36,7 +36,7 @@ function showTitle(article, single) {
 			'font-size': '1em',
 			'display': 'inline-block',
 		});
-		var newWidth = Math.floor($(this).parents('.article').width() / $(this).width() * (single ? 98 : 105));
+		var newWidth = Math.floor($(this).parents('.article').width() / $(this).width() * (single ? 98 : 100));
 		$(this).css({
 			'font-size':  newWidth + '%',
 			'display': 'block',

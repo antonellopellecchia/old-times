@@ -1,74 +1,11 @@
-<!DOCTYPE html>
-<html>
+---
+layout: post
+title: "Sample blog data"
+date: 2015-09-1 19:07:00 +0200
+---
 
-	<head>
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="description" content="Markdown (or Textile), Liquid, HTML &amp; CSS go in. Static sites come out ready for deployment.HeadingsHeading 1">
+<p>Markdown (or Textile), Liquid, HTML &amp; CSS go in. Static sites come out ready for deployment.</p>
 
-	<link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One" rel="stylesheet"> 
-	<link href='http://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
-	<link href="https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/icons.css" rel="stylesheet">
-
-	<link rel="stylesheet" type="text/css" href="/old-times/css/reset.css" />
-	<link rel="stylesheet" type="text/css" href="/old-times/css/style.css" />
-	<link rel="stylesheet" media="(max-width: 800px)" href="/old-times/css/small.css" />
-	<link rel="icon" href="/old-times/images/favicon.png" type="image/png" />
-
-	<link rel="canonical" href="/old-times/2015/09/01/sample-blog-data.html">
-	<link rel="alternate" type="application/rss+xml" title="the name of this blog" href="/old-times/feed.xml">
-
-	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/styles/tomorrow.min.css">
-	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js"></script>
-	<script>hljs.initHighlightingOnLoad();</script>
-
-	<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
-	<script src="/old-times/js/functions.js"></script>
-
-	<title>Sample blog data / the name of this blog</title>
-</head>
-
-	<body>
-		<div id="mediaquery_check"></div>
-		<div id="site_header">
-	<div id="site_title"><a href="/">the name of this blog</a></div>
-	<ul id="navigation">
-		<li><a href="/">Articles</a></li>
-		
-			
-		
-			
-				<li><a href="/old-times/about/">About</a></li>
-			
-		
-			
-				<li><a href="/old-times/docs/">Documentation</a></li>
-			
-		
-			
-		
-			
-		
-			
-		
-	</ul>
-</div>
-
-		<div id="main"><div class="article single">
-	<h1 class="article_title"><a>Sample blog data</a></h1>
-	<div class="article_meta">
-		<div class="article_date">Sep 1, 2015</div>
-				<div class="article_share">
-			<a class="socicon-twitter" href="https://twitter.com/intent/tweet?text=Sample blog data&url=/2015/09/01/sample-blog-data.html" rel="nofollow" target="_blank" title="Share on Twitter"></a>
-			<a class="socicon-facebook" href="https://facebook.com/sharer.php?u=/2015/09/01/sample-blog-data.html" rel="nofollow" target="_blank" title="Share on Facebook"></a>
-			<a class="socicon-googleplus" href="https://plus.google.com/share?url=/2015/09/01/sample-blog-data.html" rel="nofollow" target="_blank" title="Share on Google+"></a>
-		</div>
-		<div style="clear:both"></div>
-	</div>
-	<div class="article_text">
-		<p>Markdown (or Textile), Liquid, HTML &amp; CSS go in. Static sites come out ready for deployment.</p>
 
 <h4 id="headings">Headings</h4>
 
@@ -86,6 +23,7 @@
 <h6 id="heading-6">Heading 6</h6>
 
 <h4 id="blockquote">Blockquote</h4>
+
 
 <blockquote>
   <p>No more databases, comment moderation, or pesky updates to install—just your content.</p>
@@ -119,7 +57,7 @@
 
 <h4 id="image">Image</h4>
 <figure class="aligncenter">
-  <img src="https://images.unsplash.com/photo-1449452198679-05c7fd30f416?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;s=73181f1c6d56b933b30de2bfe21fdf3b" />
+  <img src="https://images.unsplash.com/photo-1449452198679-05c7fd30f416?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;s=73181f1c6d56b933b30de2bfe21fdf3b">
   <figcaption>Photo by <a href="https://unsplash.com/rmaedavis" target="_blank">Rachel Davis</a>.</figcaption>
 </figure>
 
@@ -184,7 +122,7 @@
 <p>The Jekyll gem makes a jekyll executable available to you in your Terminal window. You can use this command in a number of ways.</p>
 
 <figure class="alignleft">
-  <img src="https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;s=3f9c78df0edb464244bbabb04d1797d8" width="250" />
+  <img src="https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;s=3f9c78df0edb464244bbabb04d1797d8" width="250">
   <figcaption>Photo by <a href="https://unsplash.com/dustinlee" target="_blank">Dustin Lee</a>.</figcaption>
 </figure>
 
@@ -193,7 +131,7 @@
 <p>Jekyll is a simple, blog-aware, static site generator. It takes a template directory containing raw text files in various formats, runs it through a converter (like Markdown) and our Liquid renderer, and spits out a complete, ready-to-publish static website suitable for serving with your favorite web server. Jekyll also happens to be the engine behind GitHub Pages, which means you can use Jekyll to host your project’s page, blog, or website from GitHub’s servers for free.</p>
 
 <figure class="alignright">
-  <img src="https://images.unsplash.com/photo-1442037025225-e1cffaa2dc23?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;s=7fe04b68b0cb123bf568c6951c14b177" width="250" />
+  <img src="https://images.unsplash.com/photo-1442037025225-e1cffaa2dc23?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;s=7fe04b68b0cb123bf568c6951c14b177" width="250">
   <figcaption>Photo by <a href="https://unsplash.com/lobostudiohamburg" target="_blank">LoboStudio Hamburg</a>.</figcaption>
 </figure>
 
@@ -202,24 +140,3 @@
 <p>If you come across anything along the way that we haven’t covered, or if you know of a tip you think others would find handy, please file an issue and we’ll see about including it in this guide.</p>
 
 <p>The front matter is where Jekyll starts to get really cool. Any file that contains a YAML front matter block will be processed by Jekyll as a special file. The front matter must be the first thing in the file and must take the form of valid YAML set between triple-dashed lines.</p>
-
-	</div>
-	<div style="clear:both"></div>
-	<div id="article_pagination">
-		
-			<div class="previous"><a href="/2014/08/15/one-morning.html">&laquo; One morning</a></div>
-		
-		
-			<div class="next"><a class="next" href="/2015/12/31/sed-ut-perspiciatis-unde-omnis.html">Sed ut perspiciatis unde omnis &raquo;</a></div>
-		
-	</div>
-	
-</div>
-
-<script src="/old-times/js/post.js"></script></div>
-		<div id="footer">
-	powered by <a href="http://jekyllrb.com" target="_blank">Jekyll</a> - design by <a href="http://caverndman.github.io" target="_blank">The cavern'd man</a>
-</div>
-	</body>
-
-</html>

@@ -1,0 +1,5 @@
+		<div class="article_share">{% if site.social_buttons %}
+			<a class="socicon-twitter" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Twitter"></a>
+			<a class="socicon-facebook" href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook"></a>
+			<a class="socicon-googleplus" href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Google+"></a>{% endif %}
+		</div>

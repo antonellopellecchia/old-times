@@ -1,0 +1,11 @@
+<div id="site_header">
+	<div id="site_title"><a href="/">{{ site.title | escape }}</a></div>
+	<ul id="navigation">
+		<li><a href="/">Articles</a></li>
+		{% for site_page in site.pages %}
+			{% if site_page.title %}
+				<li><a href="{{ site_page.url | prepend: site.baseurl }}">{{ site_page.title }}</a></li>
+			{% endif %}
+		{% endfor %}
+	</ul>
+</div>
